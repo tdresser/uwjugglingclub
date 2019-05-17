@@ -17,7 +17,7 @@ title: University of Waterloo Juggling Club
 email: uwjugglingclub@gmail.com
 description: >- 
  The University of Waterloo Juggling Club.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "uwjugglingclub" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: uwjuggling
 header_pages:
