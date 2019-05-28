@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: University of Waterloo Juggling Club
 email: uwjugglingclub@gmail.com
-description: >- 
+description: >-
  The University of Waterloo Juggling Club.
 baseurl: "uwjugglingclub" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -24,8 +24,11 @@ header_pages:
   - festival.md
   - meetings.md
   - about.md
-  
-# TODO - make this non-ugly, also a jpg likely.  
+
+collections:
+  - performers
+
+# TODO - make this non-ugly, also a jpg likely.
 masthead: assets/masthead.png
 
 # Build settings

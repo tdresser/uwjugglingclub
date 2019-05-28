@@ -1,7 +1,16 @@
-<!-- Why is this comment needed?-->
-<div class="intro">
-<img src="{{include.img}}">
 
-<p>{{include.description}}</p>
+{% if include.even == 0 %}
+<div class="intro-even">
+{% else %}
+<div class="intro-odd">
+{% endif %}
+
+<img src="{{include.performer.photo}}">
+
+<h2> {{include.performer.name}} </h2>
+
+{{include.performer.content}}
+
+
 <div class="intro_clear"></div>
 </div>

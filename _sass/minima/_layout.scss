@@ -1,10 +1,18 @@
-.intro img {
+.intro-odd img, .intro-even img {
   width:400px;
+}
+
+.intro-odd img {
   float:left;
   margin-right:2em;
 }
 
-.intro {
+.intro-even img {
+  float:right;
+  margin-left:2em;
+}
+
+.intro-odd, .intro-even {
   border-top: 1px solid $grey-color-light;
   padding-top: $spacing-unit / 2;
   padding-bottom: $spacing-unit / 2;
