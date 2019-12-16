@@ -6,18 +6,7 @@ permalink: /festival/
 
 <img style="width:40%;float:right" src="../assets/noodles.jpg">
 
-Join us for our 28th Annual University of Waterloo Juggling Festival! We'll have workshops, games, a silent auction, and an _incredible_ gala [show]({{site.baseurl}}{% link show.md %})! You'll want to be there.
-
-Baseurl: {{site.baseurl}}
-Link: {% link show.md %}
-
-1: [show]({{site.baseurl}}{% link show.md %})
-2: [show]({% link show.md %})
-3: [show](../{{site.baseurl}}{% link show.md %})
-4: [show]({{ link show.md | relative_url }})
-5: [show]({{ link "/show" }})
-6: [show]({{link "/show" | relative_url}})
-7: [show]({{"/show" | relative_url}})
+Join us for our 28th Annual University of Waterloo Juggling Festival! We'll have workshops, games, a silent auction, and an _incredible_ gala [show]({{"/show" | relative_url}})! You'll want to be there.
 
 From beginners with no experience to advanced prop manipulators, there will be workshops and fun for everybody! 
 
