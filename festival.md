@@ -11,6 +11,11 @@ Join us for our 28th Annual University of Waterloo Juggling Festival! We'll have
 Baseurl: {{site.baseurl}}
 Link: {% link show.md %}
 
+1: [show]({{site.baseurl}}{% link show.md %})
+2: [show]({% link show.md %})
+3: [show](../{{site.baseurl}}{% link show.md %})
+4: [show]({{ link show.md | absolute_url }})
+
 From beginners with no experience to advanced prop manipulators, there will be workshops and fun for everybody! 
 
 The festival (workshops & vendors) is all in the Student Life Center. (Except for Friday evening, when we will be in the [PAC](https://goo.gl/maps/eQWgCLZ1NXTjcr6AA){:target="_blank"} Small Gym.)
