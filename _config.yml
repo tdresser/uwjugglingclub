@@ -21,6 +21,7 @@ baseurl: "uwjugglingclub" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: uwjuggling
 header_pages:
+  - show.md
   - festival.md
   - meetings.md
   - about.md
@@ -36,6 +37,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
