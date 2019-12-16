@@ -5,8 +5,15 @@
 @import "minima";
 
 hr {
-    margin:1em 0 1em 0;
     background-color:$grey-color-light;
     border:none;
     height:1px;
+}
+
+.wrapper {
+    background-color: #fff;
+}
+
+body {
+    background-color: #e0e0e3;
 }

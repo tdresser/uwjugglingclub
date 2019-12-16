@@ -26,7 +26,6 @@
  * Site header
  */
 .site-header {
-  border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
@@ -38,7 +37,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top:3em;
+  padding-top:1.5em;
+  margin-top:1.5em;
 }
 
 .site-title {
@@ -137,8 +137,6 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
 }
 
 .footer-heading {
@@ -153,6 +151,7 @@
 }
 
 .footer-col-wrapper {
+  padding-top:1em;
   @include relative-font-size(0.9375);
   color: $grey-color;
   margin-left: -$spacing-unit / 2;
@@ -207,8 +206,6 @@
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
-  flex: 1;
 }
 
 .page-heading {
@@ -251,6 +248,7 @@
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
+  margin-top:0.5em;
 
   @include media-query($on-laptop) {
     @include relative-font-size(2.25);
